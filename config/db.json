@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "4838",
+      "email": "abc@gmail.com",
+      "password": "abc123"
+    },
+    {
+      "id": "8f54",
+      "email": "rks@gmail.com",
+      "password": "rks123"
+    },
+    {
+      "id": "8ad4",
+      "email": "qoxybofomo@mailinator.com",
+      "password": "Pa$$w0rd!"
+    }
+  ],
+  "comments": [
+    {
+      "id": "e305",
+      "Name": "India Mays",
+      "email": "minup@mailinator.com",
+      "contact": "+1 (861) 813-5566",
+      "country": "India",
+      "state": "Gujarat",
+      "city": "Abrama"
+    },
+    {
+      "id": "2001",
+      "Name": "Xantha Duncan",
+      "email": "jomito@mailinator.com",
+      "contact": "+1 (982) 554-5252",
+      "country": "India",
+      "state": "Gujarat",
+      "city": "Abrama"
+    }
+  ],
+  "profile": {}
+}
