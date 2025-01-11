@@ -27,14 +27,7 @@ function ProfileShow() {
     }
   }
 
-//     try {
-//       await axios.delete(`http://localhost:3000/comments/${id}`);
-//       FetchData(); // Refresh data after successful deletion
-//     } catch (error) {
-//       console.error("Error deleting data:", error);
-//     }
-//   };
-  
+
 
   return (
     <>

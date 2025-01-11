@@ -68,7 +68,6 @@ const LoginPage = ({ onLogin }) => {
             </p>
           </div>
 
-          {/* Card Body */}
           <div className="card-body p-4">
             <div className="d-flex justify-content-center mb-4">
               <button
@@ -89,7 +88,6 @@ const LoginPage = ({ onLogin }) => {
               </button>
             </div>
 
-            {/* Form */}
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <label htmlFor="email" className="form-label fw-bold">
@@ -113,7 +111,6 @@ const LoginPage = ({ onLogin }) => {
                   className="form-control shadow-sm"
                   id="password"
                   name="password"
-                //   value={user.password || ""}
                   onChange={handleChange}
                   placeholder="Enter your password"
                 />

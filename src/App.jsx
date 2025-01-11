@@ -5,10 +5,8 @@ import Home from './component/Home';
 import ProfileShow from './component/ProfileShow';
 
 function App() {
-  // State to track if the user is logged in
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // Function to protect routes
   const ProtectedRoute = ({ children }) => {
     return isLoggedIn ? children : <Navigate to="/" replace />;
   };
@@ -16,10 +14,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Login Page Route */}
         <Route path="/" element={<LoginPage onLogin={() => setIsLoggedIn(true)} />} />
 
-        {/* Protected Routes */}
         <Route
           path="/Home"
           element={
